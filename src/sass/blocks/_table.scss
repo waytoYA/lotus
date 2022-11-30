@@ -1,0 +1,27 @@
+.table{
+    display: flex;
+}
+
+.table_col{
+
+
+}
+
+.table_col-name{
+    min-width: 250px;
+    min-height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-bottom: 2px solid grey;
+}
+
+.table_col-info{
+    width: 100%;
+
+    &:nth-child(2n){
+        background-color: rgb(218, 218, 218);
+    }
+}
